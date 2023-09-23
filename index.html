@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontPage</title>
+   
+</head>
+<body>
+    <style>
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+ul{
+    list-style: none;
+    font-size: 14px;
+    margin-left: 750px;
+    position: fixed;
+    margin-top: -10px;
+    
+}ul li{
+float: right;
+margin-left: 20px;
+}
+.nav-item1{
+    transition: background-color 0.4s;
+    border-radius: 10px 10px;
+}
+.nav-item1:hover{
+   
+    border-radius: 10px 10px;
+    background-color: brown;
+}
+.nav-item2{
+    transition: background-color 0.4s;
+    border-radius: 10px 10px;
+}
+.nav-item2:hover{
+   
+    border-radius: 10px 10px;
+    background-color: brown;
+}
+
+.nav-item3{
+    transition: background-color 0.4s;
+    border-radius: 10px 10px;
+}
+.nav-item3:hover{
+   
+    border-radius: 10px 10px;
+    background-color: brown;
+}
+.nav-item4{
+    transition: background-color 0.4s;
+    border-radius: 10px 10px;
+}
+.nav-item4:hover{
+   
+    border-radius: 10px 10px;
+    background-color: brown;
+}
+.nav-item5{
+    transition: background-color 0.4s;
+    border-radius: 10px 10px;
+}
+.nav-item5:hover{
+ 
+    border-radius: 10px 10px;
+    background-color: brown;
+}
+.icon1{
+    height:1.5em ;
+    width: 1.5em;
+  transition: width 0.5s, height 0.5s ;
+    cursor: pointer;
+}
+.icon1:hover{
+    width:3em;
+    height: 3em;
+   
+}
+
+.icon2{
+    height:1.5em ;
+    width: 1.5em;
+  transition: width 0.5s, height 0.5s ;
+    cursor: pointer;
+}
+.icon2:hover{
+    width:3em;
+    height: 3em;
+    
+}
+.icon3{
+    height:1.5em ;
+    width: 1.5em;
+  transition: width 0.5s, height 0.5s ;
+    cursor: pointer;
+}
+.icon3:hover{
+    width:3em;
+    height: 3em;
+    
+}
+.icon4{
+    height:1.5em ;
+    width: 1.5em;
+  transition: width 0.5s, height 0.5s ;
+    cursor: pointer;
+}
+.icon4:hover{
+    width:3em;
+    height: 3em;
+    
+}
+.About{
+   z-index: -1;
+  
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 240px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    margin-bottom: 20rem;
+   
+}
+
+h2 {
+    margin-left: 250px;
+    margin-top: 140px;
+    color: brown;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 17px;
+    width: 500px;
+    margin-top: 140px; 
+    margin-left: 42rem;
+     
+}
+
+img {
+    margin-top: -19rem; 
+    margin-left: 16rem;
+}
+
+.fadeIn {
+    opacity: 1;
+}
+.skills {
+    text-align: center;
+    background-color: #f8f5f5;
+    color: white;
+
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    margin-bottom: 20rem;
+    
+}
+
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: -30rem;
+}
+.skill-icon {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 27rem;
+    box-shadow: 0 0 20px brown;
+    margin-top: 50px;
+}
+
+.skill-icon img {
+    max-width: 90px;
+}
+
+.skills h2{
+    margin-left: -10rem;
+    font-size: 60px;
+}
+.skill-info h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+.skill-progress {
+    height: 100%;
+    border-radius: 5px;
+    animation: fillProgress 2s ease-in-out forwards;
+}
+
+@keyframes fillProgress {
+    from {
+        width: 0;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+.html {
+    background-color: #f16529;
+}
+.css {
+    background-color: #2965f1;
+}
+.js{
+    background-color: yellow;
+
+}
+.About1{
+    z-index: -1;
+   margin-left: 200px;
+     color: aliceblue;
+     font-family: sans-serif;
+     font-size: 14px;
+     margin-top: 1000px;
+     opacity: 0;
+     transition: opacity 1s ease-in-out;
+     width: 70%;
+     height: 700px;
+     position: absolute;
+     margin-bottom: 20rem;
+  
+ }
+ 
+ .About1 h2 {
+     margin-left: 50px;
+     margin-top: 80spx;
+     color: brown;
+     font-size: 60px;
+     font-family: sans-serif;
+ }
+
+
+.skills {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20rem;
+    background-color: black;
+}
+
+.skill-label {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.progress-bar {
+    width: 50%;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.skill-progress {
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    
+    color: #fff;
+}
+
+
+.html-bar {
+    background-color: #f06529; 
+}
+
+.css-bar {
+    background-color: #2965f1; 
+    margin-left: 10px;
+}
+
+.js-bar {
+    background-color: #f0db4f;
+    margin-left: -30px;
+}
+
+.java-bar {
+    background-color: #007396; 
+    margin-left: 10px;
+}
+
+.python-bar {
+    background-color: #306998; 
+    margin-left: -7px;
+}
+
+.csharp-bar {
+    background-color: #68217a; 
+    margin-left: 23px;
+}
+
+.cplusplus-bar {
+    background-color: #00599c; 
+    margin-left: 13px;
+}
+
+.vbnet-bar {
+    background-color: #1e449e;
+    margin-left: -10px; 
+}
+ 
+ .fadeIn {
+     opacity: 1;
+ }
+ form {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+label {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: #FF5733;
+    margin-top: 10px;
+}
+    </style>
+    
+<div class="home">
+    <ul class="navbar" >
+      
+        <li class="nav-item1" >
+            <a href="#cont" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;" tabindex="2">Contact</a>
+        </li>
+        <li class="nav-item2" >
+            <a href="#about2" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;" tabindex="3">Services</a>
+        </li>
+        <li class="nav-item3" >
+            <a href="#about1" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;" tabindex="3">Skills</a>
+        </li>
+        
+        <li class="nav-item4" >
+            <a href="#about" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;" tabindex="4">About</a>
+        </li>
+        <li class="nav-item5" >
+            <a href="#home" id="home" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;" tabindex="5">Home</a>
+        </li>
+       
+    </ul>
+</div>
+    <div class="logo">
+        <a href="https://www.facebook.com/jefrey.lariba.3" style="text-decoration: none;">
+        <h1 style="color: rgb(255, 252, 252); margin-left: 90px; margin-top: 20px;font-size: 40px;">JL</h1></div>
+        </a>
+ <div class="pic">
+    <img src="cc.png" alt="" style="margin-left: 45rem;margin-top: 120px;">
+    <img src="ee.png" class="mypic" style="margin-left: 44rem; margin-top: -400px;">
+</div>
+ <div class="name" style="margin-left: 60px;">
+    <h2  style="margin-top: -380px; margin-left: 175px; font-family: Arial, sans-serif; font-size: 25px;color: aliceblue; font-weight: normal;margin-bottom: 7px;">Jefrey Lariba</h2>
+    <a href="https://www.facebook.com/jefrey.lariba.3" style="text-decoration: none;">
+        <h1 style="margin-left: 170px;margin-top: -10px; font-family:sans-serif; font-size: 40px; color: brown;font-style: italic;">WEB DEVELOPER</h1>
+    </a>
+    <p style="margin-left: 175px;margin-top: 60px; font-family: Arial, sans-serif; color: aliceblue; font-size: 13px;">Hi, I am Jefrey Lariba, a 3rd Year BSIT Student 
+    of <br>Saint Paul University Surigao</p>
+   
+    
+ </div>
+ <div class="socials" style="margin-top: 100px; margin-left: -19px;">
+ <img src="1.png" class="icon1"  >
+    <img src="2.png" class="icon2" style="margin-left: 30px;">
+    <img src="3.png" class="icon3" style="margin-left: 30px;">
+    <img src="4.png" class="icon4"  style="margin-left: 30px;">
+ </div>
+ <div class="About" id="about">
+    <h2>About Me</h2>
+    <p>Hello, I'm <strong style="color: brown;">Jefrey Lariba</strong>, a passionate and results-driven programmer with a deep love for technology and a knack for solving complex problems. I specialize in <strong style="color: brown;">Fullstack Programming</strong>, and I have 2 years of experience in the field. My approach to programming is rooted in a strong belief in the <strong style="color: brown;">power of clean, maintainable code</strong>. I take pride in writing code that not only works but is also easy for others to understand and build upon. Collaboration is a key aspect of my work philosophy, and I enjoy working with diverse teams to bring innovative ideas to life. Thank you for visiting my portfolio, and I look forward to the possibility of working together to turn your ideas into reality.</p>
+    <img src="ab.jpg" alt="" width="350" height="350">
+</div>
+
+<div class="About1" id="about1">
+    <h2>Skills</h2>
+    <div class="skills">
+    <div class="skill" >
+        <span class="skill-label" style="margin-right: 100px;">HTML:</span>
+        <div class="progress-bar html-bar">
+            <div class="skill-progress" style="margin-left: 100px;">30%</div>
+        </div>
+    </div>
+    <div class="skill">
+        <span class="skill-label" style="margin-right: 100px;">CSS:</span>
+        <div class="progress-bar css-bar">
+            <div class="skill-progress" style="margin-left: 50px;">25%</div>
+        </div>
+    </div>
+    <div class="skill">
+        <span class="skill-label" style="margin-right: 100px;">JavaScript:</span>
+        <div class="progress-bar js-bar">
+            <div class="skill-progress" style="margin-left: 10px;">20%</div>
+        </div>
+    </div>
+    <div class="skill">
+        <span class="skill-label" style="margin-right: 100px;">Java:</span>
+        <div class="progress-bar java-bar">
+            <div class="skill-progress" style="margin-left: 300px;">60%</div>
+        </div>
+    </div>
+    <div class="skill">
+        <span class="skill-label" style="margin-right: 100px;">Python:</span>
+        <div class="progress-bar python-bar">
+            <div class="skill-progress" style="margin-left: 250px;">50%</div>
+        </div>
+    </div>
+    <div class="skill">
+        <span class="skill-label" style="margin-right: 100px;">C#:</span>
+        <div class="progress-bar csharp-bar">
+            <div class="skill-progress" style="margin-left: 300px;">60%</div>
+        </div>
+    </div>
+    <div class="skill">
+        <span class="skill-label" style="margin-right: 100px;">C++:</span>
+        <div class="progress-bar cplusplus-bar">
+            <div class="skill-progress" style="margin-left: 280px;">55%</div>
+        </div>
+    </div>
+    <div class="skill">
+        <span class="skill-label" style="margin-right: 100px;">VB.NET:</span>
+        <div class="progress-bar vbnet-bar">
+            <div class="skill-progress"  style="margin-left: 350px;">65%</div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+</div>
+
+<div class="About2" id="about2"  style="margin-top: 1850px;color: aliceblue; height: 45rem; ">
+    <h2 style="color:brown;">Services</h2>
+    <ol style="margin-left: 500px; font-weight: 700; font-size: 25px; margin-top: 100px;">
+        <li>Front End Programming</li>
+        <li>Back-end Programming</li>
+       <LI>Web Designing</LI>
+    </ol>
+</div>  
+
+
+ <div class="cont" id="cont" style="margin-left: 420px; margin-top: -10rem;">
+    <h1 style="color: aliceblue; font-family: sans-serif; color: brown; margin-left: -160px; font-size: 57px ;" >Contact Us</h1>
+    <p style="color: aliceblue; font-family: sans-serif; font-size: 14px; margin-left: 115px;">Fill out the form below to get in touch with us:</p>
+    </div>
+
+    <form action="process_contact.php" method="post" >
+        <label for="name" >Name:</label>
+        <input type="text" id="name" name="name" required ><br><br>
+
+        <label for="email" >Email:</label>
+        <input type="email" id="email" name="email" required ><br><br>
+
+        <label for="message" >Message:</label><br>
+        <textarea id="message" name="message" rows="4" required ></textarea><br><br>
+
+        <input type="submit" value="Submit" >
+    </form>
+        
+
+        <footer>
+            <p style="color: aliceblue; font-family: sans-serif; font-size: 14px; margin-left: 550px;margin-top: 100px;">&copy; 2023 Jefrey Lariba. All rights reserved.</p>
+        </footer>
+
+     
+</body>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.body.style.opacity = 2 ;
+    });
+    
+    
+    
+    //ScrolltoAbout
+    window.addEventListener('scroll', () => {
+        const aboutDiv = document.querySelector('.About');
+        const aboutDivPosition = aboutDiv.getBoundingClientRect();
+    
+        if (aboutDivPosition.top <= window.innerHeight * 0.75) {
+            aboutDiv.classList.add('fadeIn');
+        }
+    });
+    
+    //SmoothScrollToAbout
+    document.addEventListener("DOMContentLoaded", function () {
+       
+        var aboutLink = document.querySelector('a[href="#about"]');
+        if (aboutLink) {
+            aboutLink.addEventListener("click", function (event) {
+                event.preventDefault();
+                var target = document.querySelector(this.getAttribute("href"));
+                if (target) {
+                    var targetOffsetTop = target.getBoundingClientRect().top + window.scrollY;
+                    window.scrollTo({
+                        top: targetOffsetTop,
+                        behavior: "smooth" 
+                    });
+                }
+            });
+        }
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+        var homeLink = document.querySelector('a[href="#home"]');
+        if (homeLink) {
+            homeLink.addEventListener("click", function (event) {
+                event.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+    
+               
+            });
+        }
+    });
+    
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get all skill progress bars
+        var skillProgressBars = document.querySelectorAll(".skill-progress");
+    
+        // Fill skill progress bars with animation
+        skillProgressBars.forEach(function (progressBar) {
+            progressBar.style.width = progressBar.getAttribute("data-progress");
+        });
+    });
+    
+    window.addEventListener('scroll', () => {
+        const aboutDiv = document.querySelector('.About1');
+        const aboutDivPosition = aboutDiv.getBoundingClientRect();
+    
+        if (aboutDivPosition.top <= window.innerHeight * 0.75) {
+            aboutDiv.classList.add('fadeIn');
+        }
+    });
+    window.addEventListener('scroll', () => {
+        const aboutDiv = document.querySelector('.About1');
+        const aboutDivPosition = aboutDiv.getBoundingClientRect();
+    
+        if (aboutDivPosition.top <= window.innerHeight * 0.75) {
+            aboutDiv.classList.add('fadeIn');
+        }
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+       
+        var aboutLink = document.querySelector('a[href="#about1"]');
+        if (aboutLink) {
+            aboutLink.addEventListener("click", function (event) {
+                event.preventDefault();
+                var target = document.querySelector(this.getAttribute("href"));
+                if (target) {
+                    var targetOffsetTop = target.getBoundingClientRect().top + window.scrollY;
+                    window.scrollTo({
+                        top: targetOffsetTop,
+                        behavior: "smooth" 
+                    });
+                }
+            });
+        }
+    }); 
+    window.addEventListener('scroll', () => {
+        const aboutDiv = document.querySelector('.About2');
+        const aboutDivPosition = aboutDiv.getBoundingClientRect();
+    
+        if (aboutDivPosition.top <= window.innerHeight * 0.75) {
+            aboutDiv.classList.add('fadeIn');
+        }
+    });
+    
+    //SmoothScrollToAbout
+    document.addEventListener("DOMContentLoaded", function () {
+       
+        var aboutLink = document.querySelector('a[href="#about2"]');
+        if (aboutLink) {
+            aboutLink.addEventListener("click", function (event) {
+                event.preventDefault();
+                var target = document.querySelector(this.getAttribute("href"));
+                if (target) {
+                    var targetOffsetTop = target.getBoundingClientRect().top + window.scrollY;
+                    window.scrollTo({
+                        top: targetOffsetTop,
+                        behavior: "smooth" 
+                    });
+                }
+            });
+        }
+    });
+    window.addEventListener('scroll', () => {
+        const aboutDiv = document.querySelector('.cont');
+        const aboutDivPosition = aboutDiv.getBoundingClientRect();
+    
+        if (aboutDivPosition.top <= window.innerHeight * 0.75) {
+            aboutDiv.classList.add('fadeIn');
+        }
+    });
+    
+    //SmoothScrollToAbout
+    document.addEventListener("DOMContentLoaded", function () {
+       
+        var aboutLink = document.querySelector('a[href="#cont"]');
+        if (aboutLink) {
+            aboutLink.addEventListener("click", function (event) {
+                event.preventDefault();
+                var target = document.querySelector(this.getAttribute("href"));
+                if (target) {
+                    var targetOffsetTop = target.getBoundingClientRect().top + window.scrollY;
+                    window.scrollTo({
+                        top: targetOffsetTop,
+                        behavior: "smooth" 
+                    });
+                }
+            });
+        }
+    });
+    
+            </script>
+</html>
